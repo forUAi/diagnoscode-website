@@ -25,7 +25,7 @@ export default function Services() {
               faster claim submissions, fewer rejections, and improved revenue cycles.
             </li>
             <li>
-              <strong>Seamless Integration with Electronic Health Records (EHR):</strong> DiagnosCode's solutions integrate seamlessly
+              <strong>Seamless Integration with Electronic Health Records (EHR):</strong> DiagnosCode&rsquo;s solutions integrate seamlessly
               with existing EHR systems, ensuring a smooth and non-disruptive transition for healthcare providers. This integration
               allows for real-time coding suggestions, reducing the workload for medical staff while maintaining compliance with
               ever-evolving regulations.

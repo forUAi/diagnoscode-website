@@ -11,13 +11,12 @@ export default function Impact() {
           </p>
   
           <p className="text-lg text-gray-700 mt-6">
-            DiagnosCode's impact extends beyond efficiency; it helps healthcare organizations maximize revenue, minimize costly rejections, and, 
+            DiagnosCode&rsquo;s impact extends beyond efficiency; it helps healthcare organizations maximize revenue, minimize costly rejections, and, 
             most importantly, improve patient outcomes by allowing medical professionals to focus on patient care.
           </p>
   
           <h2 className="text-3xl font-semibold text-teal-700 mt-8 mb-4">How DiagnosCode Makes a Difference</h2>
   
-          {/* Key Benefits */}
           <ul className="list-disc list-inside text-lg text-gray-700 space-y-4">
             <li>
               <strong>Minimize Coding Errors:</strong> By leveraging AI algorithms that ensure precision and compliance, DiagnosCode 
