@@ -4,14 +4,14 @@ import { useState } from 'react';
 
 export default function Home() {
   // State to track the expanded state of each widget individually
-  const [expandedWidget, setExpandedWidget] = useState({
+  const [expandedWidget, setExpandedWidget] = useState<{ about: boolean; what: boolean; impact: boolean }>({
     about: false,
     what: false,
     impact: false,
   });
 
   // Function to handle expanding/collapsing a widget
-  const toggleExpand = (widget) => {
+  const toggleExpand = (widget: string) => {
     setExpandedWidget((prevState) => ({
       ...prevState,
       [widget]: !prevState[widget],
