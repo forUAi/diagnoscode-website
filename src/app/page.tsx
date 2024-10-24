@@ -32,8 +32,8 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        {/* Google site verification meta tag */}
+     <Head>
+        <title>DiagnosCode - AI-Driven Healthcare Solutions</title>
         <meta name="google-site-verification" content="Qhfyz4aQonvj49_FRg-dW1Am4qZK7GPev7JCAYk5iho" />
       </Head>
     
