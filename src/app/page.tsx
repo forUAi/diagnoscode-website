@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 
+// Define the possible widget names as a TypeScript type
+type WidgetName = 'about' | 'what' | 'impact';
+
 export default function Home() {
   // State to track the expanded state of each widget individually
   const [expandedWidget, setExpandedWidget] = useState<{ about: boolean; what: boolean; impact: boolean }>({
@@ -10,8 +13,8 @@ export default function Home() {
     impact: false,
   });
 
-  // Function to handle expanding/collapsing a widget
-  const toggleExpand = (widget: string) => {
+  // Function to handle expanding/collapsing a widget, now with explicit typing
+  const toggleExpand = (widget: WidgetName) => {
     setExpandedWidget((prevState) => ({
       ...prevState,
       [widget]: !prevState[widget],
