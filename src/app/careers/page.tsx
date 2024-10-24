@@ -36,13 +36,13 @@ export default function Careers() {
               To apply for any of these roles, please send your resume and a cover letter to:
             </p>
             <a
-              href="mailto:careers@diagnoscode.org"
+              href="mailto:careers@diagnoscode.com"
               className="block text-teal-600 text-lg font-semibold hover:underline"
             >
-              careers@diagnoscode.org
+              careers@diagnoscode.com
             </a>
             <p className="text-gray-600 mt-4">
-              Make sure to mention the position you're applying for in the subject line.
+              Make sure to mention the position you&apos;re applying for in the subject line.
             </p>
           </div>
         </div>
