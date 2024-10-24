@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://diagnoscode-website-jcit.vercel.app
+
+# Sitemaps
+Sitemap: https://diagnoscode-website-jcit.vercel.app/sitemap.xml
